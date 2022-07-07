@@ -107,7 +107,7 @@ a {
 
 }
 
-.title, .subtitle {
+.title, .subtitle, .presentation {
     font-family: Helvetica;
     text-align: center;
 }
@@ -123,6 +123,14 @@ a {
     font-weight: 300;
     margin-top: -5vh;
     padding-top: 0;
+}
+
+.presentation {
+    text-align:justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.5em;
+    font-weight:300;
 }
 
 .icon-mode {
