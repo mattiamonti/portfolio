@@ -50,9 +50,9 @@ body {
     align-items: center;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22pt;
+.item {
+    font-family: Helvetica;
+    font-size: 1.8em;
     font-weight: 500;
 }
 
@@ -65,8 +65,8 @@ a {
     color: black;
 }
 
-h2.contact {
-    margin-top: 20%;
+.contact {
+    margin-top: 10%;
     color: #E45656;
 }
 
@@ -113,13 +113,13 @@ h2.contact {
 }
 
 .title {
-    font-size: 50pt;
+    font-size: 4.2em;
     font-weight: 600;
     
 }
 
 .subtitle {
-    font-size: 25pt;
+    font-size: 2em;
     font-weight: 300;
     margin-top: -5vh;
     padding-top: 0;
@@ -129,7 +129,20 @@ h2.contact {
     width: 25pt;
     height: 25pt;
     fill: black;
+    margin-right: 1vw;
 }
 
 
+@media (max-width: 575.98px) {
+    .HideOnMobile {
+      display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .ShowOnMobile {
+      display: none;
+    }
+  }
 

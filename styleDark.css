@@ -50,9 +50,9 @@ body {
     align-items: center;
 }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 22pt;
+.item {
+    font-family: Helvetica;
+    font-size: 1.8em;
     font-weight: 500;
     color: #FFFFFF;
 }
@@ -66,13 +66,14 @@ a {
     color: white;
 }
 
-h2.contact {
-    margin-top: 20%;
+.contact {
+    margin-top: 10%;
     color: #E45656;
 }
 
 .home {
     margin-top: 20%;
+
 }
 
 .textarea {
@@ -115,13 +116,13 @@ h2.contact {
 }
 
 .title {
-    font-size: 50pt;
+    font-size: 4.2em;
     font-weight: 600;
     
 }
 
 .subtitle {
-    font-size: 25pt;
+    font-size: 2em;
     font-weight: 300;
     margin-top: -5vh;
     padding-top: 0;
@@ -130,7 +131,121 @@ h2.contact {
 .icon-mode {
     width: 25pt;
     height: 25pt;
-    fill: white;
+    fill: #FAFAFA;
+    margin-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+.topframeMobile {
+    margin-top:1vh;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 25vh;
+
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px 3px rgba(255,255,255,0.20);
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menuMobile {
+    position: absolute;
+
+    margin-left: 10vw;
+    margin-top: 30vh;
+
+    width: 80vw;
+    height: 60vh;
+
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px 3px rgba(255,255,255,0.20);
+}
+
+.menu-item-mobile {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-mobile {
+    font-family: Helvetica;
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.contact-mobile {
+    margin-top: 10%;
+    color: #E45656;
+}
+
+.title-mobile, .subtitle-mobile {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+}
+
+.title-mobile {
+    font-size: 2.5em;
+    font-weight: 600;
+    
+}
+
+.subtitle-mobile {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: -4vh;
+    padding-top: 0;
+}
+
+.textarea-mobile {
+    height: 61%;
+    width: 100%;
+    background-color: #252525;
+    margin-top: 25%;
+
+    border-radius: 25px;
+
+
+}
+
+.profilepicture-mobile {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 8%;
+    background-color: #252525;
+
+    border-radius: 50%;
+
+    background-image: url("profpic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media (max-width: 575.98px) {
+    .HideOnMobile {
+      display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .ShowOnMobile {
+      display: none;
+    }
 }
 
 
