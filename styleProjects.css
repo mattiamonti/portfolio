@@ -1,3 +1,52 @@
 .description {
     padding-left: 4vw;
+
+}
+
+.presentation {
+    text-align:justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 1.7vw;
+    font-weight:300;
+}
+
+.subtitle {
+    font-size: 2.4vw;
+    font-weight: 500;
+    margin-top: -4vw;
+    padding-top: 0;
+}
+
+
+/* MOBILE DEVELOPMENT */
+
+.mainframe-mobile {
+    width: 90vw;
+    height:150vw;
+}
+
+.description-mobile {
+    padding-left: 4vw;
+
+}
+
+.presentation-mobile {
+    text-align:justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 4vw;
+    font-weight:300;
+    font-family: Helvetica;
+}
+
+.subtitle-mobile {
+    font-size: 6vw;
+    font-weight: 500;
+    margin-top: -4vw;
+    padding-top: 0;
+}
+
+.title-mobile {
+    font-size: 10vw;
 }
