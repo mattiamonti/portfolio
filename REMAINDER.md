@@ -1,5 +1,5 @@
 # REAMINDER FOR PORTFOLIO PROJECTS
-- ordinare file in cartelle per una miglire struttura del progetto
+- ordinare file in cartelle per una migliore struttura del progetto
 - aggiungere progetti da visualizzare nella pagina projects
 - aggiungere un modo per vedere gli altri progetti pubblici ––> rimandare su github
 - creare pagina per contattare, ora non serve

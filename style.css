@@ -94,7 +94,7 @@ a {
 
     border-radius: 50%;
 
-    background-image: url("profpic.jpg");
+    background-image: url("memoji.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@ a {
 
 .topframeMobile {
     margin-top: 1.5vw;
-    margin-left: 10vw;
+    margin-left: 8vw;
     width: 80vw;
     height: 45vw;
 
@@ -165,7 +165,7 @@ a {
 .menuMobile {
     position: absolute;
 
-    margin-left: 10vw;
+    margin-left: 8vw;
     margin-top: 60vw;
 
     width: 80vw;
@@ -229,11 +229,11 @@ a {
     height: 18vw;
     width: 18vw;
     margin-top: 6vw;
-    background-color: #252525;
+    background-color: #FFFFFF;
 
     border-radius: 50%;
 
-    background-image: url("profpic.jpg");
+    background-image: url("memoji.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
