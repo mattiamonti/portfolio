@@ -1,6 +1,6 @@
 .textarea {
-    height: 100%;
-    width: 100%;
+    height: 46vw;
+    width: 68vw;
     margin: 0;
     border-radius: 25px;
 
@@ -8,7 +8,7 @@
 
 .subtitle {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.3vw;
     font-weight: 400;
     text-align: left;
 }
