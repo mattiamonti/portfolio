@@ -16,6 +16,7 @@
     font-weight: 500;
     margin-top: -4vw;
     padding-top: 0;
+    text-decoration: underline;
 }
 
 
@@ -26,6 +27,7 @@
 .mainframe-mobile {
     width: 90vw;
     height:150vw;
+    margin-left: 5vw;
 }
 
 .description-mobile {
